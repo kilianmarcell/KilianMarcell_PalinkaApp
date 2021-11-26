@@ -7,7 +7,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnAdatFelvetelMain;
+    private Button btnAdatFelvetelMain, btnPalinkaKeresese;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void init() {
         btnAdatFelvetelMain = findViewById(R.id.btnAdatFelvetelMain);
+        btnPalinkaKeresese = findViewById(R.id.btnPalinkaKeresese);
     }
 }
