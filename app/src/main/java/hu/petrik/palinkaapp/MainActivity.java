@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Nincs bejegyzés az adatbázisban!", Toast.LENGTH_SHORT).show();
                 } else {
                     StringBuilder textLista = new StringBuilder();
-                    while (listaz.moveToNext()){
+                    while (listaz.moveToNext()) {
                         textLista.append("ID: ").append(listaz.getInt(0));
                         textLista.append(System.lineSeparator());
                         textLista.append("Főző: ").append(listaz.getString(1));
